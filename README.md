@@ -1,6 +1,6 @@
 # Sanity Theme for Unraid 6.6+
 
-This theme is based on Dynamic White. I modified it to be more to my liking. I hope it is to yours too!
+This theme is based on Dynamix White. I modified it to be more to my liking. I hope it is to yours too!
 
 ## What's been done
 
