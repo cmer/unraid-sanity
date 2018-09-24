@@ -38,9 +38,11 @@ input[type=button],input[type=reset],input[type=submit],button,button[type=butto
   background:-webkit-gradient(linear,left top,right top,from(#e22828),to(#ff8c2f)) 0 0 no-repeat,-webkit-gradient(linear,left top,right top,from(#e22828),to(#ff8c2f)) 0 100% no-repeat,-webkit-gradient(linear,left bottom,left top,from(#e22828),to(#e22828)) 0 100% no-repeat,-webkit-gradient(linear,left bottom,left top,from(#ff8c2f),to(#ff8c2f)) 100% 100% no-repeat;background:linear-gradient(90deg,#e22828 0,#ff8c2f) 0 0 no-repeat,linear-gradient(90deg,#e22828 0,#ff8c2f) 0 100% no-repeat,linear-gradient(0deg,#e22828 0,#e22828) 0 100% no-repeat,linear-gradient(0deg,#ff8c2f 0,#ff8c2f) 100% 100% no-repeat;
   background-size:100% 2px,100% 2px,2px 100%,2px 100%
   background:-webkit-gradient(linear,left top,right top,from(#e22828),to(#ff8c2f));
-  background:linear-gradient(90deg,#e22828 0,#ff8c2f);
+  background:linear-gradient(5deg,#e22828 0,#ff8c2f);
   color:#f2f2f2;
-  box-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+  -webkit-box-shadow: 2px 2px 3px rgba(0,0,0,0.2);
+     -moz-box-shadow: 2px 2px 3px rgba(0,0,0,0.2);
+          box-shadow: 2px 2px 3px rgba(0,0,0,0.2);
 }
 
 
@@ -50,11 +52,14 @@ input[type=number]::-webkit-outer-spin-button,input[type=number]::-webkit-inner-
 input[type=number]{-moz-appearance:textfield}
 input:focus[type=text],input:focus[type=password],input:focus[type=number],input:focus[type=url],input:focus[type=email],input:focus[type=file],textarea:focus{background:#e8e8e8;border-color:#ff8c2f}
 
-input:hover[type=button]:not[disabled],input:hover[type=reset]:not[disabled],input:hover[type=submit]:not[disabled],button:hover:not[disabled],button:hover[type=button]:not[disabled],a.button:hover:not[disabled] {
+input:hover[type=button]:enabled,input:hover[type=reset]:enabled,input:hover[type=submit]:enabled,button:hover:enabled,button:hover[type=button]:enabled,a.button:hover:enabled {
   color:#f2f2f2;
   background:-webkit-gradient(linear,left top,right top,from(#e22828),to(#ff8c2f));
-  background:linear-gradient(45deg,#e22828 0,#ff8c2f);
-  box-shadow: none;
+  background:linear-gradient(20deg,#e22828 0,#ff8c2f);
+  -webkit-box-shadow: inset 0px 0px 3px rgba(64, 64, 64, 0.3);
+     -moz-box-shadow: inset 0px 0px 3px rgba(64, 64, 64, 0.3);
+          box-shadow: inset 0px 0px 3px rgba(64, 64, 64, 0.3);
+  outline: none;
 }
 
 
