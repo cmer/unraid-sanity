@@ -250,4 +250,4 @@ div.icon-eml{background:url('../images/file-types.png') -96px -144px;width:16px;
 .tooltipster-sidetip.tooltipster-right .tooltipster-arrow-border{border-right-color:#ff8c2f}
 .tooltipster-sidetip.tooltipster-left .tooltipster-box{border-right:3px solid #ff8c2f}
 .tooltipster-sidetip.tooltipster-right .tooltipster-box{border-left:3px solid #ff8c2f}
-.fileTree{background-color:#f2f2f2}
+.fileTree{background-color:#f2f2f2 !important}
