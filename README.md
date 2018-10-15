@@ -11,8 +11,9 @@ This theme is based on Dynamix White. I modified it to be more to my liking. I h
 
 ## Installation
 
-- Copy all `.css` files to `/usr/local/emhttp/plugins/dynamix/styles`
-- Navigate to `http://your-unraid-ip/Settings/DisplaySettings` and select Sanity as your Dynamix Color Theme.
+- SSH into your Unraid server
+- Run `curl https://raw.githubusercontent.com/cmer/unraid-sanity/master/install.sh | sudo bash`
+- Navigate to `http://your-unraid-ip/Settings/DisplaySettings` and select White as your Dynamix Color Theme.
 
 ## Look and feel
 
