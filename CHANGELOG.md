@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## 1.5 - October 23, 2018
+
+- Support for Unraid 6.6.3+
+- Removed wide letter spacing
+
 ## 1.4 - October 15, 2018
 
 - Support for Unraid 6.6.2+

@@ -27,7 +27,7 @@ div.jGrowl div.jGrowl-closer.top{position:fixed;top:130px}
 .ui-dropdownchecklist-item{height:2.4rem;line-height:2.4rem}
 .ui-dropdownchecklist-item input{vertical-align:top}
 #sb-info-inner,#sb-loading-inner,div.sb-message{color:#1c1c1c;background-color:#f2f2f2}
-#sb-title,#sb-title-inner{border-top-left-radius:10px;border-top-right-radius:10px;width:100%;height:5rem;line-height:5rem;font-family:-apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, sans-serif;font-size:1.6rem;font-weight:bold;letter-spacing:2px;background:#C0C0C0;color:#606060;text-indent:10px;text-align:center}
+#sb-title,#sb-title-inner{border-top-left-radius:10px;border-top-right-radius:10px;width:100%;height:5rem;line-height:5rem;font-family:-apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, sans-serif;font-size:1.6rem;font-weight:bold;background:#C0C0C0;color:#606060;text-indent:10px;text-align:center}
 #sb-title,#sb-info{position:relative;margin:0;padding:0;overflow:hidden}
 #sb-container{position:fixed;margin:0;padding:0;top:0;left:0;z-index:999;text-align:left;visibility:hidden;display:none}
 #sb-overlay{position:relative;height:100%;width:100%}
