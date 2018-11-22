@@ -16,12 +16,12 @@ div.jGrowl div.jGrowl-closer{width:400px;color:#808080;background-color:#121510;
 div.jGrowl div.jGrowl-closer.top{position:fixed;top:130px}
 @media print{div.jGrowl{display:none}}
 .ui-dropdownchecklist{background:transparent;border:none;box-shadow:0 1px 0 #1c1c1c;outline:none;height:3.2rem;line-height:3.2rem;cursor:pointer}
-.ui-dropdownchecklist-selector{border:1px solid #1c1c1c;display:inline-block;cursor:pointer;padding:1px 9px 1px 11px}
+.ui-dropdownchecklist-selector{border:none;border-bottom:1px solid #1c1c1c;outline: none;display:inline-block;cursor:pointer;padding:1px 0}
 .ui-dropdownchecklist-group{font-weight:normal;font-style:italic;padding:1px 9px 1px 11px}
 .ui-dropdownchecklist-selector-wrapper{vertical-align:middle;font-size:0}
 .ui-state-active{border-color:#ff8c2f;background:transparent}
 .ui-dropdownchecklist-dropcontainer{color:#1c1c1c;background-color:#e8e8e8;border:#ff8c2f 1px solid}
-.ui-state-disabled{color:#1c1c1c;border-color:#a2a2a2;background:#e8e8e8;opacity:0.5;cursor:default}
+.ui-state-disabled{color:#1c1c1c;border-bottom-color:#a2a2a2;opacity:0.5;cursor:default}
 .ui-dropdownchecklist-indent{padding-left:7px}
 .ui-dropdownchecklist-text{font-family:-apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, sans-serif;font-size:1.1rem;color:#1c1c1c}
 .ui-dropdownchecklist-item{height:2.4rem;line-height:2.4rem}

@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 1.6 - November 22, 2018
+
+- Updated for Unraid 6.6.5
+
 ## 1.5 - October 23, 2018
 
 - Support for Unraid 6.6.3+
