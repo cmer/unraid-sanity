@@ -11,7 +11,6 @@ RELEASES_URL         = "https://github.com/#{GITHUB_USER}/#{GITHUB_REPO}/release
 RANDOM               = Time.now.to_i
 TMP_DIR              = "/tmp/unraid-dl-#{RANDOM}"
 
-
 supported_version = File.open('./UNRAID_VERSION', &:readline).chomp
 latest_version    = open(RELEASES_URL).read.match(/\/#{GITHUB_USER}\/#{GITHUB_REPO}\/releases\/tag\/([\d\.]*)/i)[1].chomp
 
@@ -33,8 +32,20 @@ puts "Downloading & extracting Unraid v#{latest_version}..."
 `cd #{TMP_DIR}; wget -O new.tar.gz #{WEBGUI_URL_TEMPLATE.sub('{version}', latest_version)} > /dev/null 2>&1`
 `tar xfz #{TMP_DIR}/new.tar.gz --strip-components=2 -C #{TMP_DIR}/new > /dev/null`
 
-puts "Removing all non-CSS files..."
-`cd #{TMP_DIR}; find . -type f ! -name '*.css' -delete`
+puts "Removing all unnecessary files..."
+`cd #{TMP_DIR}; rm *.tar.gz`
+files = Dir["./theme/*"].map { |f| f.split('/').last }.uniq
+
+%w(old new).each do |dir|
+  del_cmd = "find #{TMP_DIR}/#{dir}/ -type f ! \\("
+  files.each do |f|
+    del_cmd += " -name \"#{f}\" "
+    del_cmd += "-o " unless files.last == f
+  end
+  del_cmd += "\\) -delete; find #{TMP_DIR}/#{dir}/ -type d -empty -delete"
+
+  `#{del_cmd}`
+end
 
 if DIFF_TOOL == 'diff'
   `diff -r -E -b -w -B #{TMP_DIR}/old #{TMP_DIR}/new`
