@@ -21,6 +21,21 @@ If you want to keep the Sanity theme after rebooting your server, simply run:
 
 `echo "curl https://raw.githubusercontent.com/cmer/unraid-sanity/master/install.sh | sudo bash" >> /boot/config/go`
 
+### Persist changes after reboot (without Internet)
+
+If you'd rather not have your server execute a remote script on every reboot, you could simply clone the repo locally first.
+
+```bash
+# Save the remote repo locally
+git clone https://github.com/cmer/unraid-sanity.git /mnt/user/sanity-theme
+
+# Run this every time you want to fetch updates
+cd /mnt/user/sanity-theme && git pull
+
+# Persist theme across reboots
+echo "/mnt/user/sanity-theme/install_local.sh" >> /boot/config/go
+```
+
 
 ## Look and feel
 

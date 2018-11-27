@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 1.6.1 - November 26, 2018
+
+- Added local installer script
+
 ## 1.6 - November 22, 2018
 
 - Updated for Unraid 6.6.5
