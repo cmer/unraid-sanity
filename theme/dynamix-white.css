@@ -83,7 +83,7 @@ span.select ul.unused{display:block}
 span.select ul li.nosort{font-weight:bold}
 span.select ul li.ident{padding-left:7px}
 span.select ul li span{display:none}
-span.select{padding:3px 6px;margin:0 10px 0 0;border:none;border-radius:4px;box-shadow:0 2px 0 #ff8c2f,inset 0 -1px #f2f2f2;background:tranparent;outline:none;display:inline-block;cursor:pointer}
+span.select{padding:3px 6px;margin:0 10px 0 0;display:inline-block;cursor:pointer}
 span.select[disabled]{color:#1c1b1b;border-color:#808080;background:#e8e8e8;opacity:0.5;cursor:default}
 div.sb-message{padding:10px;text-align:center}
 div.sb-message a:link,div.sb-message a:visited{color:#486DBA;text-decoration:underline}

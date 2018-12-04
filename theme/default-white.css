@@ -67,7 +67,7 @@ input:active[type=button][disabled],input:active[type=reset][disabled],input:act
 }
 
 input::-webkit-input-placeholder{color:#486dba}
-select{-webkit-appearance:none;font-family:-apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, sans-serif;font-size:1rem;min-width:166px;max-width:300px;padding:4px 8px 4px 0;text-indent:0;margin:0 10px 0 0;border:none;border-bottom:#1c1c1c 1px solid;border-radius:0;box-shadow:none;color:#1c1c1c;background-color:transparent;background-image:linear-gradient(66.6deg, transparent 60%, #1c1c1c 40%),linear-gradient(113.4deg, #1c1c1c 40%, transparent 60%);background-position:calc(100% - 4px),100%;background-size:4px 6px,4px 6px;background-repeat:no-repeat;outline:none;display:inline-block;cursor:pointer}
+select{font-family:-apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, sans-serif;font-size:1rem;min-width:166px;max-width:300px;padding:4px 8px 4px 0;text-indent:0;margin:0 10px 0 0;display:inline-block;cursor:pointer}
 select option{color:#1c1c1c;background-color:#e8e8e8}
 select:focus{outline:0}
 select[disabled]{color:#1c1c1c;border-bottom-color:#a2a2a2;opacity:0.5;cursor:default}
