@@ -22,7 +22,7 @@ i.spacing{margin-left:-6px}
 i.icon{margin-right:4px}
 i.title{margin-right:8px}
 hr{border:none;height:1px!important;color:#e3e3e3;background-color:#e3e3e3}
-input[type=text],input[type=password],input[type=number],input[type=url],input[type=email],input[type=date],input[type=file],textarea,.textarea{font-family:-apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, sans-serif;font-size:1rem;background:transparent;border:none; border-bottom: 1px solid #1c1c1c; padding:4px 0px;text-indent:0;min-height:2rem;line-height:2rem;outline:none;width:300px;margin:0 20px 0 0;box-shadow:none;border-radius:0;color:#1c1c1c}
+input[type=text],input[type=password],input[type=number],input[type=url],input[type=email],input[type=date],input[type=file],textarea,.textarea{font-family:-apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, sans-serif;font-size:1rem;text-indent:0;min-height:2rem;line-height:2rem;width:300px;margin:0 20px 0 0;;color:#1c1c1c}
 
 input[type=button],input[type=reset],input[type=submit],button,button[type=button],a.button{
   font-weight:600;
@@ -49,7 +49,7 @@ input[type=number]::-webkit-outer-spin-button,input[type=number]::-webkit-inner-
 input[type=number]{-moz-appearance:textfield}
 input:focus[type=text],input:focus[type=password],input:focus[type=number],input:focus[type=url],input:focus[type=email],input:focus[type=file],textarea:focus{background:#e8e8e8;outline:0}
 input:hover[type=button],input:hover[type=reset],input:hover[type=submit],button:hover,button:hover[type=button],a.button:hover{color:#f2f2f2;background:-webkit-gradient(linear,left top,right top,from(#e22828),to(#ff8c2f));background:linear-gradient(90deg,#e22828 0,#ff8c2f)}
-input[disabled],textarea[disabled]{color:#1c1c1c;border-bottom-color:#a2a2a2;opacity:0.5;cursor:default}
+input[disabled],textarea[disabled]{color:#1c1c1c;opacity:0.5;cursor:default}
 input[type=button][disabled],input[type=reset][disabled],input[type=submit][disabled],button[disabled],button[type=button][disabled],a.button[disabled]
 input:hover[type=button][disabled],input:hover[type=reset][disabled],input:hover[type=submit][disabled],button:hover[disabled],button:hover[type=button][disabled],a.button:hover[disabled]
 /*input:active[type=button][disabled],input:active[type=reset][disabled],input:active[type=submit][disabled],button:active[disabled],button:active[type=button][disabled],a.button:active[disabled]
@@ -70,7 +70,7 @@ input::-webkit-input-placeholder{color:#486dba}
 select{font-family:-apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, sans-serif;font-size:1rem;min-width:166px;max-width:300px;padding:4px 8px 4px 0;text-indent:0;margin:0 10px 0 0;display:inline-block;cursor:pointer}
 select option{color:#1c1c1c;background-color:#e8e8e8}
 select:focus{outline:0}
-select[disabled]{color:#1c1c1c;border-bottom-color:#a2a2a2;opacity:0.5;cursor:default}
+select[disabled]{color:#1c1c1c;opacity:0.5;cursor:default}
 select[name=enter_view]{padding:0;float:right}
 select[name=enter_share]{padding:0;float:right}
 select.narrow{min-width:76px}
