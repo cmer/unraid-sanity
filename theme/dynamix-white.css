@@ -15,7 +15,7 @@ div.jGrowl div.jGrowl-notify div.jGrowl-close{float:right;cursor:pointer}
 div.jGrowl div.jGrowl-closer{width:400px;color:#808080;background-color:#121510;opacity:0.96;border:2px solid #B0B0B0;margin:5px 0;padding:4px 0;cursor:pointer;font-weight:bold;text-align:center;border-radius:6px}
 div.jGrowl div.jGrowl-closer.top{position:fixed;top:130px}
 @media print{div.jGrowl{display:none}}
-.ui-dropdownchecklist{background:transparent;border:none;box-shadow:0 1px 0 #1c1c1c;outline:none;height:3.2rem;line-height:3.2rem;cursor:pointer}
+.ui-dropdownchecklist{background-color:transparent;background-image:linear-gradient(66.6deg, transparent 60%, #1c1c1c 40%),linear-gradient(113.4deg, #1c1c1c 40%, transparent 60%);background-position:calc(100% - 4px),100%;background-size:4px 6px,4px 6px;background-repeat:no-repeat;border:none;box-shadow:0 1px 0 #1c1c1c;outline:none;height:2.5rem;line-height:2.5rem;cursor:pointer}
 .ui-dropdownchecklist-selector{border:none;border-bottom:1px solid #1c1c1c;outline: none;display:inline-block;cursor:pointer;padding:1px 0}
 .ui-dropdownchecklist-group{font-weight:normal;font-style:italic;padding:1px 9px 1px 11px}
 .ui-dropdownchecklist-selector-wrapper{vertical-align:middle;font-size:0}

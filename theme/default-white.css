@@ -22,7 +22,7 @@ i.spacing{margin-left:-6px}
 i.icon{margin-right:4px}
 i.title{margin-right:8px}
 hr{border:none;height:1px!important;color:#e3e3e3;background-color:#e3e3e3}
-input[type=text],input[type=password],input[type=number],input[type=url],input[type=email],input[type=date],input[type=file],textarea,.textarea{font-family:-apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, sans-serif;font-size:1rem;background:transparent;border:none; border-bottom: 1px solid #1c1c1c; padding:5px 0px;min-height:2rem;line-height:2rem;outline:none;width:300px;margin:0 20px 0 0;box-shadow:none;border-radius:0;color:#1c1c1c}
+input[type=text],input[type=password],input[type=number],input[type=url],input[type=email],input[type=date],input[type=file],textarea,.textarea{font-family:-apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, sans-serif;font-size:1rem;background:transparent;border:none; border-bottom: 1px solid #1c1c1c; padding:4px 0px;text-indent:0;min-height:2rem;line-height:2rem;outline:none;width:300px;margin:0 20px 0 0;box-shadow:none;border-radius:0;color:#1c1c1c}
 
 input[type=button],input[type=reset],input[type=submit],button,button[type=button],a.button{
   font-weight:600;
@@ -67,17 +67,18 @@ input:active[type=button][disabled],input:active[type=reset][disabled],input:act
 }
 
 input::-webkit-input-placeholder{color:#486dba}
-select{font-family:-apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, sans-serif;font-size:1rem;min-width:166px;max-width:300px;padding:6px 0;margin:0 10px 0 0;border:none;border-bottom:#1c1c1c 1px solid;border-radius:0;box-shadow:none;color:#1c1c1c;background:transparent;outline:none;display:inline-block;cursor:pointer}
+select{-webkit-appearance:none;font-family:-apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, sans-serif;font-size:1rem;min-width:166px;max-width:300px;padding:4px 8px 4px 0;text-indent:0;margin:0 10px 0 0;border:none;border-bottom:#1c1c1c 1px solid;border-radius:0;box-shadow:none;color:#1c1c1c;background-color:transparent;background-image:linear-gradient(66.6deg, transparent 60%, #1c1c1c 40%),linear-gradient(113.4deg, #1c1c1c 40%, transparent 60%);background-position:calc(100% - 4px),100%;background-size:4px 6px,4px 6px;background-repeat:no-repeat;outline:none;display:inline-block;cursor:pointer}
 select option{color:#1c1c1c;background-color:#e8e8e8}
 select:focus{outline:0}
 select[disabled]{color:#1c1c1c;border-bottom-color:#a2a2a2;opacity:0.5;cursor:default}
 select[name=enter_view]{padding:0;float:right}
 select[name=enter_share]{padding:0;float:right}
-select.narrow{min-width:64px}
+select.narrow{min-width:76px}
 select.auto{min-width:auto}
 select.slot{min-width:44rem;max-width:44rem}
 input.narrow{width:166px}
-input.trim{width:50px}
+input.trim{width:76px;min-width:76px;}
+textarea{resize:none;}
 
 #header{position:absolute;top:0;left:0;width:100%;height:81px;z-index:100;margin:0;color:#f2f2f2;background:#1c1b1b;background-size:100% 90px;background-repeat:no-repeat}
 #header .logo{float:left;margin-left:10px;margin-top:10px;color:#f15a2c;width:160px;font-size:85%;}
