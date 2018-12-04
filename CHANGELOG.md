@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 1.6.3 - December 4, 2018
+
+- Made dropdowns and text fields more generic
+
 ## 1.6.2 - December 4, 2018
 
 - Updated for Unraid 6.6.6
