@@ -12,7 +12,8 @@ This theme is based on Dynamix White. I modified it to be more to my liking. I h
 ## Installation
 
 - Install [Theme Engine](https://forums.unraid.net/topic/87126-plugin-theme-engine-a-webgui-styler/)
-- Install the theme itself from URL through Theme Engine: `https://github.com/cmer/unraid-sanity/archive/master.zip`
+- SSH into your Unraid server and run the following command: `curl https://raw.githubusercontent.com/cmer/unraid-sanity/master/install.sh | bash`
+- Visit the Theme Engine settings page and load the `Sanity-White` theme.
 
 ## Look and feel
 
