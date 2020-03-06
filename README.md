@@ -1,6 +1,6 @@
-# Sanity Theme for Unraid 6.6+
+# Sanity Theme for Unraid 6.8+ and Theme Engine
 
-This theme is based on Dynamix White. I modified it to be more to my liking. I hope it is to yours too!
+This theme is based on Dynamix White. I modified it to be more to my liking. I hope you like it too.
 
 ## What's been done
 
@@ -11,31 +11,8 @@ This theme is based on Dynamix White. I modified it to be more to my liking. I h
 
 ## Installation
 
-- SSH into your Unraid server
-- Run `curl https://raw.githubusercontent.com/cmer/unraid-sanity/master/install.sh | sudo bash`
-- Navigate to `http://your-unraid-ip/Settings/DisplaySettings` and select White as your Dynamix Color Theme.
-
-### Persist changes after reboot
-
-If you want to keep the Sanity theme after rebooting your server, simply run:
-
-`echo "curl https://raw.githubusercontent.com/cmer/unraid-sanity/master/install.sh | sudo bash" >> /boot/config/go`
-
-### Persist changes after reboot (without Internet)
-
-If you'd rather not have your server execute a remote script on every reboot, you could simply clone the repo locally first.
-
-```bash
-# Save the remote repo locally
-git clone https://github.com/cmer/unraid-sanity.git /mnt/user/sanity-theme
-
-# Run this every time you want to fetch updates
-cd /mnt/user/sanity-theme && git pull
-
-# Persist theme across reboots
-echo "/mnt/user/sanity-theme/install_local.sh" >> /boot/config/go
-```
-
+- Install [Theme Engine](https://forums.unraid.net/topic/87126-plugin-theme-engine-a-webgui-styler/)
+- Install the theme itself from URL through Theme Engine: `https://github.com/cmer/unraid-sanity/archive/master.zip`
 
 ## Look and feel
 

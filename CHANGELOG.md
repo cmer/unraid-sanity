@@ -1,5 +1,10 @@
 # CHANGELOG
 
+# 2.0.0 - March 6, 2020
+
+- Revamped theme to be compatible with 6.8.x and the Theme Engine plugin.
+- Prior versions are deprecated. This is the path forward.
+
 ## 1.6.3 - December 4, 2018
 
 - Made dropdowns and text fields more generic
