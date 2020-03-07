@@ -34,8 +34,8 @@ pre,
 }
 
 #nav-block #nav-item a {
-  color:#f2f2f2; 
-  text-transform: none; 
+  color:#f2f2f2;
+  text-transform: none;
   text-decoration:none;
   font-weight: bold;
   letter-spacing: 0.05em;
@@ -46,15 +46,15 @@ pre,
   background-color:#f15a2c38;
 }
 #nav-block #nav-item.active {
-  background-color:#f15a2c; 
+  background-color:#f15a2c;
 }
 
-#nav-block #nav-item:after { 
+#nav-block #nav-item:after {
   border-radius: 0;
-  display:none; 
+  display:none;
 }
 
-#header .logo{ 
+#header .logo{
   color:#f15a2c;
   width:160px;
   font-size: 85%;
@@ -65,7 +65,7 @@ pre,
 }
 
 #header .logo svg {
-  width:120px; 
+  width:120px;
   display:block;
   margin:10px 50px 8px 0;
 }
