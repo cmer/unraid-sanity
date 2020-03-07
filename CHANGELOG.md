@@ -1,5 +1,9 @@
 # CHANGELOG
 
+# 2.1.0 - March 6, 2020
+
+- Added Black theme.
+
 # 2.0.0 - March 6, 2020
 
 - Revamped theme to be compatible with 6.8.x and the Theme Engine plugin.
