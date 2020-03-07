@@ -1,0 +1,148 @@
+html {
+  height: 100%;
+}
+
+body {
+  font-size: 11pt;
+  color: <?=$ThemeEngine['text']?>;
+  background: <?=$ThemeEngine['mainbackground']?>;
+  padding: 0;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body,
+html,
+input[type=text],
+input[type=password],
+input[type=number],
+input[type=url],
+input[type=email],
+input[type=date],
+input[type=file],
+input[type=submit],
+input[type=button],
+button,
+textarea,
+select,
+.textarea,
+pre,
+#sb-title,
+#sb-title-inner {
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, sans-serif !important;
+}
+
+#nav-block #nav-item a {
+  color: #f2f2f2;
+  text-transform: none;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  font-size: 110%;
+}
+
+#nav-block #nav-item:focus,
+#nav-block #nav-item:hover {
+  background-color: #f15a2c38;
+}
+
+#nav-block #nav-item.active {
+  background-color: #f15a2c;
+}
+
+#nav-block #nav-item:after {
+  border-radius: 0;
+  display: none;
+}
+
+#header .logo {
+  color: #f15a2c;
+  width: 160px;
+  font-size: 85%;
+  float: left;
+  margin-left: 10px;
+  margin-top: 10px;
+  text-align: left;
+}
+
+#header .logo svg {
+  width: 120px;
+  display: block;
+  margin: 10px 50px 8px 0;
+}
+
+#header {
+  height: 81px;
+}
+
+#header .block {
+  font-size: 85%;
+  padding-right: 15px;
+  background-color: inherit;
+  color: <?=$ThemeEngine['text']?>;
+}
+
+#header .text-right a {
+  color: <?=$ThemeEngine['text']?>;
+}
+
+#menu {
+  top: 80px;
+}
+
+/* Buttons */
+
+input[type=button],
+input[type=reset],
+input[type=submit],
+button,
+button[type=button],
+a.button {
+  font-weight: 600;
+  margin: 10px 12px 10px 0;
+  padding: 5px 15px;
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+  outline: none;
+  border-radius: .25rem;
+  border: 1px rgba(192, 192, 192, 0.2) solid;
+  background: -webkit-gradient(linear, left top, right top, from(#e22828), to(#ff8c2f)) 0 0 no-repeat, -webkit-gradient(linear, left top, right top, from(#e22828), to(#ff8c2f)) 0 100% no-repeat, -webkit-gradient(linear, left bottom, left top, from(#e22828), to(#e22828)) 0 100% no-repeat, -webkit-gradient(linear, left bottom, left top, from(#ff8c2f), to(#ff8c2f)) 100% 100% no-repeat;
+  background: linear-gradient(90deg, #e22828 0, #ff8c2f) 0 0 no-repeat, linear-gradient(90deg, #e22828 0, #ff8c2f) 0 100% no-repeat, linear-gradient(0deg, #e22828 0, #e22828) 0 100% no-repeat, linear-gradient(0deg, #ff8c2f 0, #ff8c2f) 100% 100% no-repeat;
+  background-size: 100% 2px, 100% 2px, 2px 100%, 2px 100% background:-webkit-gradient(linear, left top, right top, from(#e22828), to(#ff8c2f));
+  background: linear-gradient(5deg, #e22828 0, #ff8c2f);
+  color: #f2f2f2;
+  -webkit-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+input[type=button],
+input[type=reset],
+input[type=submit],
+button,
+button[type=button],
+a.button {
+  text-transform: none;
+  letter-spacing: normal;
+  font-weight: bold;
+}
+
+table.disk_status,
+table.share_status,
+table#docker_containers,
+table#kvm_table {
+  font-size: 90%;
+}
+
+/* Community apps */
+div.tabs div.tab input[type=radio]+label {
+  font-size: inherit;
+  letter-spacing: normal;
+}
+
+#plugin_table td {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
