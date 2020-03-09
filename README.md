@@ -17,7 +17,10 @@ The old versions of this theme (< 2.0) are no longer supported. Instead, this th
 
 - Install [Theme Engine](https://forums.unraid.net/topic/87126-plugin-theme-engine-a-webgui-styler/)
 - SSH into your Unraid server and run the following command: `curl https://raw.githubusercontent.com/cmer/unraid-sanity/master/install.sh | bash`
-- Visit the Theme Engine settings page and load the `Sanity-White` theme.
+
+> :warning: **WARNING:** make sure to review the content of `install.sh` before curl-bashing!
+
+- Visit the Theme Engine settings page and load the `Sanity-White` or `Sanity-Black` theme.
 
 ## Updates
 
